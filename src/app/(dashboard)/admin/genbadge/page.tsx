@@ -87,9 +87,10 @@ const GenBadges = () => {
                     setFields(newFields);
                   }}
                   options={[
-                    { label: 'Aucune', value: 'restricted' },
-                    { label: 'Prix Orga', value: 'orgaprice' },
-                    { label: 'Full Access', value: 'fullaccess' },
+                    { label: 'Restreint', value: 'restricted' },
+                    { label: 'Organisateur', value: 'orgaprice' },
+                    { label: 'Accès total', value: 'fullaccess' },
+                    { label: 'Invité', value: 'invite' },
                   ]}
                   required
                 />
