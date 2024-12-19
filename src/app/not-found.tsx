@@ -11,7 +11,7 @@ export default function NotFound() {
     <>
       <div id="not-found" className={styles.notFound}>
         <Title level={1} type={1} align="center">
-          Erreur 404
+          Mereur 404
         </Title>
         <p>
           La page <span>{pageName}</span> n’existe pas.
